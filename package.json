@@ -1,0 +1,32 @@
+{
+  "name": "@xizher/pg",
+  "version": "1.0.0",
+  "description": "基于Nodejs的PostgreSQL数据库操作集成工具",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "build:test": "npx tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xizher/xizher-pg.git"
+  },
+  "keywords": [],
+  "author": "wuxizhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xizher/xizher-pg/issues"
+  },
+  "homepage": "https://github.com/xizher/xizher-pg#readme",
+  "devDependencies": {
+    "@types/pg": "^7.14.11",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "pg": "^8.5.1"
+  }
+}
